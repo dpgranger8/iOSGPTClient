@@ -11,7 +11,7 @@ import SwiftUI
 struct GPT4ClientApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroView()
         }
     }
 }
