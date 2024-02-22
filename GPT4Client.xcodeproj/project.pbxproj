@@ -47,7 +47,6 @@
 		7E3FDE8B2B7BEFCD00742269 = {
 			isa = PBXGroup;
 			children = (
-				7E9E41862B88058D0086D792 /* WhichModelPicker.swift */,
 				7E3FDE962B7BEFCD00742269 /* GPT4Client */,
 				7E3FDE952B7BEFCD00742269 /* Products */,
 			);
@@ -65,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				7E3FDE972B7BEFCD00742269 /* GPT4ClientApp.swift */,
+				7E9E41862B88058D0086D792 /* WhichModelPicker.swift */,
 				7E9E41842B87F9250086D792 /* IntroView.swift */,
 				7E3FDEA52B7BF02700742269 /* MessageManager.swift */,
 				7E1F5E9B2B7BF13A00B12D90 /* OpenAIService.swift */,

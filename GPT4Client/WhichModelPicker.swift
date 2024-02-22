@@ -31,7 +31,7 @@ struct WhichModelPicker: View {
             .background(Color.white.clipShape(RoundedRectangle(cornerRadius: 12)))
             .frame(maxWidth: .infinity, alignment: alignmentCenter == false ? .leading : .center)
             if whichModel == .GPT35 {
-                Text("Fastest model\nwith greater context capability.")
+                Text("Fastest model with\ngreater context capability.")
                     .foregroundColor(textColorWhite == true ? .white : .black)
                     .font(.footnote)
                     .multilineTextAlignment(.center)
