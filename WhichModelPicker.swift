@@ -31,14 +31,14 @@ struct WhichModelPicker: View {
             .background(Color.white.clipShape(RoundedRectangle(cornerRadius: 12)))
             .frame(maxWidth: .infinity, alignment: alignmentCenter == false ? .leading : .center)
             if whichModel == .GPT35 {
-                Text("Recommended - Fastest model\nwith greater context capability.")
+                Text("Fastest model\nwith greater context capability.")
                     .foregroundColor(textColorWhite == true ? .white : .black)
                     .font(.footnote)
                     .multilineTextAlignment(.center)
                     .frame(maxWidth: .infinity)
                     .padding(.top, 15)
             } else {
-                Text("Slower model, great for tasks that\nrequire creativity. Expect long response times.")
+                Text("Slower model, great for tasks that require creativity\nand deeper research. Expect long response times.")
                     .foregroundColor(textColorWhite == true ? .white : .black)
                     .font(.footnote)
                     .multilineTextAlignment(.center)
