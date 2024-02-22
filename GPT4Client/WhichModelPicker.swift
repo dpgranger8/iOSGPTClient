@@ -13,7 +13,7 @@ enum GPTButtonStyle: Int, CaseIterable {
 }
 
 struct WhichModelPicker: View {
-    @AppStorage ("whichModel") var whichModel: OpenAIModel = .GPT35
+    @AppStorage ("whichModel") var whichModel: OpenAIModel = .GPT4
     @Environment(\.colorScheme) var colorScheme
     var textColorWhite: Bool
     var alignmentCenter: Bool
